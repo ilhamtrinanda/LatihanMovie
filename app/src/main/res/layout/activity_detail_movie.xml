@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailMovieActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/racing_sans_one"
+            android:text="Sinopsis"
+            android:textAlignment="center"
+            android:textSize="28sp" />
+
+        <ImageView
+            android:id="@+id/imageDetailMovie"
+            android:layout_width="match_parent"
+            android:layout_height="400sp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/spiderman" />
+
+        <TextView
+            android:id="@+id/txtSinopsis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/racing_sans_one"
+            android:text="Spiderman No Way Home menceritakan kembali seorang Peter Parker. Saat itu ia di fitnah oleh Mysterio musuh spiderman di film sebelumnya yaitu Spider-Man Far From Home. Mysterio mengungkap idientitas di balik kostum Spiderman dan memfitnahnya bahwa Peter adalah pembunuh dan Villain."
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
